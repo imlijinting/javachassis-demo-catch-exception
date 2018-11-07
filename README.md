@@ -1,0 +1,1 @@
+这个demo用于展示如何使用`ExceptionToResponseConverter`扩展机制将业务异常转换成特定的返回消息。
