@@ -1,0 +1,18 @@
+APPLICATION_ID: javachassis-catch-exception-demo
+service_description:
+  name: test-server
+  version: 0.0.1
+  properties:
+    allowCrossApp: true
+  environment: development
+servicecomb:
+  service:
+    registry:
+      address: http://127.0.0.1:30100
+      instance:
+        watch: false
+  monitor:
+    client:
+      enabled: false
+  rest:
+    address: 0.0.0.0:18080
